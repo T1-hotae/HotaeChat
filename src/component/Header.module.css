@@ -1,0 +1,13 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header > button {
+  display: flex;
+  font-size: 40px !important;
+  cursor: pointer;
+  color: #065084;
+  background-color: transparent; /*완전히 없음*/
+  border: none;
+}

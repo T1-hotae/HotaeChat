@@ -1,0 +1,6 @@
+.Chatting {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  flex: 1;
+}
