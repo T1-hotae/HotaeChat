@@ -1,7 +1,12 @@
+import ChatBubble from "./ChatBubble";
 import styles from "./Chatting.module.css";
 
 const Chatting = () => {
-  return <div className={styles.Chatting}>Chatting 창입니다.</div>;
+  return (
+    <div className={styles.Chatting}>
+      <ChatBubble />
+    </div>
+  );
 };
 
 export default Chatting;
