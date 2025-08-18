@@ -5,12 +5,16 @@ import { useContext } from "react";
 
 const Chatting = () => {
   const chatData = useContext(ChatStateProvider);
-  console.log(chatData);
 
   return (
     <div className={styles.Chatting}>
       {chatData.map((chat) => (
-        <ChatBubble key={chat.id} text={chat.text} date={chat.date} />
+        <ChatBubble
+          key={chat.id}
+          text={chat.text}
+          date={chat.date}
+          focus={focus}
+        />
       ))}
     </div>
   );

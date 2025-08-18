@@ -31,20 +31,25 @@ function App() {
 
   const idRef = useRef(3);
 
-  const onCreateChat = () => {
-    setChatData();
+  const onCreateChat = (text, date) => {
+    const newChat = {
+      id: idRef.current++,
+      text: text,
+      date: new Date(date).getTime(),
+    };
+    setChatData([...chatData, newChat]);
   };
 
   return (
     <>
-      <ChatStateProvider value={chatData}>
+      <ChatStateProvider.Provider value={chatData}>
         <ChatProvider.Provider value={onCreateChat}>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/chat" element={<Chat />} />
           </Routes>
         </ChatProvider.Provider>
-      </ChatStateProvider>
+      </ChatStateProvider.Provider>
     </>
   );
 }

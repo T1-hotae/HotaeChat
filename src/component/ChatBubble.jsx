@@ -8,7 +8,7 @@ const ChatBubble = ({ text, date }) => {
           <div className={styles.chatRead}>1</div>
           <div className={styles.chatTime}>
             {new Date(date).toLocaleTimeString("ko-KR", {
-              hour: "2-digit",
+              hour: "numeric",
               minute: "2-digit",
             })}
           </div>
