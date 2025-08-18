@@ -1,19 +1,42 @@
 .ChatBubble {
   display: flex;
   justify-content: flex-end;
+  margin-bottom: 3px;
 }
 .chatBody {
-  width: 50px;
-  height: 30px;
-  background-color: #dadddf;
-  border-radius: 10px 0px 10px 10px;
-  padding: 4px 4px 4px 4px;
-  font-size: 15px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.chatInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.chatRead {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 10px;
+  margin-right: 7px;
+  color: #065084;
 }
 
 .chatTime {
+  display: flex;
+  justify-content: flex-end;
+  width: 50px;
+  margin-right: 5px;
   font-size: 10px;
-  position: relative;
-  top: 20px;
-  right: 3px;
+}
+
+.chatText {
+  display: flex;
+  max-width: 140px;
+  max-height: 150px;
+  background-color: #dadddf;
+  border-radius: 10px 0px 10px 10px;
+  padding: 5px;
+  font-size: 15px;
+
+  align-items: center;
 }
