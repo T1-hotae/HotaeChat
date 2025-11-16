@@ -1,12 +1,12 @@
-# React + Vite
+from 미래의_나 import 편지
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 웹앱을 만들고 싶었던 과거이고
 
-Currently, two official plugins are available:
+당시 리액트네이티브와 백엔드 자체를 모르고
+이제 막 React를 jsx로 배워가지고
+어깨뽕 올라와있을 때입니다.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+프론트로 그니까 React만으로 백없이
+채팅 구현하려고 하는 저 무모함.
+localStorage와 Vercel로만으로 구현하려하는
+저 무모함에 박수를 보내고 싶습니다.
