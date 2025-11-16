@@ -8,5 +8,6 @@ from 미래의_나 import 편지
 
 프론트로 그니까 React만으로 백없이
 채팅 구현하려고 하는 저 무모함.
-localStorage와 Vercel로만으로 구현하려하는
+
+localStorage와 Vercel만으로 구현하려하는
 저 무모함에 박수를 보내고 싶습니다.
